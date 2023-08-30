@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    max-width: 2400px;
+    width: 100%;
+}
+
+body {
+    background-image: url(../images/milad-fakurian-nY14Fs8pxT8-unsplash.jpg);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+img {
+    display: flex;
+}
+
+header {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+    background-color: white;
+    color: rgba(36, 36, 36, 0.822);;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+    padding-right: 10%;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 10px 20px 0px rgb(90, 80, 230);
+    
+}
+
+.position {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+#menu-h  a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(36, 36, 36, 0.822);
+
+    display: inline-block;
+    padding: 20px;
+    border-bottom: 2px solid transparent;
+}
+
+#menu-h a:hover {
+    color: rgb(90, 80, 230);
+    border-bottom: 2px solid rgb(90, 80, 230);
+}
+
+
+
+main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.welcome{
+    color: rgba(36, 36, 36, 0.822);;
+    font-size: 24px;
+    box-shadow: 0px 0px 20px 10px rgb(90, 80, 230);
+    padding-left: 24px ;
+    padding-right: 24px ;
+    padding-top: 60px;
+
+    background-color: white;
+
+    height: 70vh;
+    width: 60vh;
+    margin: 7%;
+
+    border-radius: 15px;
+}
+
+.welcome p {
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.color-span {
+    color: rgb(90, 80, 230);;
+}
+
+.pin-p {
+    width: 32px;
+    height: 32px;
+}
+
+.position-pin {
+    align-items: center;
+    margin-top: 24px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    margin-top: 88px;
+
+    color: white;
+    
+}
+
+.redes-sociais h3 {
+font-size: 18px ;
+padding: 16px;
+
+display: flex;
+align-items: center;
+
+background-color: rgb(90, 80, 230); 
+ border-radius: 48px;
+}
+
+.redes-sociais img {
+    color: white;
+    padding: 4px;
+    
+    width: 32px;
+    height: 32px;
+    
+}
+
+.icones-rs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.icones-rs img {
+    padding: 2px;
+    border-radius: 12px;
+
+    background-color: rgb(90, 80, 230);
+    display: flex;
+
+    transition: 300ms linear;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.icones-rs img:hover {
+    transition: 300ms linear;
+    padding: 6px
+}
+.main-position {
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.foto-perfil {
+    display: flex;
+    margin-left: 20%;
+    
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+}
+100%{
+    transform: translateY(-50px);
+}
+}
+
+.foto-perfil img {
+
+    width: 360px;
+    height: 360px;
+    background-color: #5a50e6; 
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 10px rgb(90, 80, 230);
+}
+
+
+.sobre-mim{
+    color: rgba(36, 36, 36, 0.822);;
+    font-size: 24px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 10px rgb(90, 80, 230);
+    padding-left: 4% ;
+    padding-right: 4% ;
+    padding-top: 60px;
+
+    height:100vh;
+    width: 100%;
+    margin: 7%;
+
+    border-radius: 15px;
+
+    animation-duration: 5s;
+    animation-name: slidein;
+    
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 7%;
+      width: 100%;
+    }
+  }
+
+.sobre-mim p {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.sobre-mim h3 {
+    font-size: 20px;
+    margin-top: 44px;
+}
+
+.sobre-mim img {
+    width: 448px;
+    height:672px;
+    border-radius: 24px;
+}
+
+.sobre-mim-position {
+    display: flex;
+    flex-direction:row ;
+    
+    margin-top: 40px;
+}
+
+.exp-position {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction:row ;
+    
+    margin-top: 40px;
+}
+
+.input-style {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    margin-top: 88px;
+    color: white;
+    
+}
+
+.input-style img{
+    margin-left: 8px;
+    width: 32px;
+    height: 32px;
+}
+
+.input-style a {
+font-size: 18px ;
+padding: 16px;
+width: 40%;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+background-color: rgb(90, 80, 230); 
+ border-radius: 48px;
+ transition: 300ms linear;
+}
+
+.input-style a:hover{
+    padding: 32px;
+    transition: 300ms linear;
+    font-size: 24px;
+}
+
+
+.atualmente {
+    margin-left: 62px;
+    display: flex;
+    flex-direction: column ;
+}
+
+.direction-sm p{
+    border-bottom: 1px solid rgba(36, 36, 36, 0.822) ;
+    display: flex;
+    flex-direction: column;
+}
+
+.spacing-p p{
+ margin-bottom: 8% ;
+ margin-top: 4%;
+}
+
+.spacing-p-habilidade p{
+    margin-bottom: 12% ;
+    margin-top: 6%;
+}
+
+.contatos {
+    box-shadow: 0px -15px 20px 0px rgb(90, 80, 230);
+    background-color: white;
+    color: rgba(36, 36, 36, 0.822);;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:25vh;
+    align-items: center;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.contatos h1 {
+    margin-bottom: 12px;
+}
+
+.contatos p{
+    padding: 12px;
+    font-size: 14px;
+}
+
+.contatos img {
+    width: 32px;
+    height: 32px;
+}
+
+.position-footer {
+    display: flex;
+    flex-direction: row;
+}
